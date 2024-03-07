@@ -4,6 +4,7 @@ body {
   margin: 0;
   padding: 0;
 }
+
 .flex {
   display: flex;
 }
@@ -24,6 +25,13 @@ a {
 }
 
 :root {}
+
+.backrground-image {
+  background-image: url(images/family.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
 
 .nav_bar_list {
   gap: 32px;
@@ -56,11 +64,49 @@ a {
 
 /* -----------------------------------------main--------------------------------------------- */
 /* ----------------------------------------- section----------------------------------------- */
-.section_title {
+.hero_title {
   color: rgb(228, 216, 204);
   font-family: "Inter", sans-serif;
   font-size: 57px;
   font-weight: 400;
   line-height: 60.48px;
-  margin-top: 411px
+  margin-top: 411px;
+}
+
+.hero_paragraph {
+  color: rgb(195, 186, 177);
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-top: -14px;
+}
+
+.hero_button {
+  color: rgb(255, 255, 255);
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  border-radius: 100px;
+  background: rgba(228, 216, 204, 0.5);
+  padding: 14px 34px;
+  border: none;
+  cursor: pointer;
+}
+
+.button_active {
+  color: rgb(255, 255, 255);
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  box-sizing: border-box;
+  border: 2px solid rgb(120, 55, 243);
+  border-radius: 100px;
+  background: rgb(120, 55, 243);
+  padding: 14px 34px;
+  margin-top: 42px;
+  cursor: pointer;
+  margin-bottom: 116px;
 }
